@@ -6,7 +6,7 @@ class Neopass < Formula
   sha256 "a98f7a3155f5d8426df041f18ca72a8b6b2f7531bf0990138ad7848c99592718"
   license "BSD 2-Clause"
 
-  depends_on "go" => :build
+  depends_on "go@1.18" => :build
 
   def install
     ENV["GOPATH"] = buildpath
