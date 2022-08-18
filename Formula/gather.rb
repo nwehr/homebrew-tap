@@ -14,7 +14,7 @@ class Gather < Formula
       ENV["PATH"] = "#{ENV["PATH"]}:#{buildpath}/bin"
       (buildpath/"src/github.com/nwehr/gather").install buildpath.children
       cd "src/github.com/nwehr/gather" do
-        system "make", "install"
+        system "go", "build", "-ldflags", "-X main.commit="+self.version, "-o", bin/"gather", "main.go"
       end
     end
   
