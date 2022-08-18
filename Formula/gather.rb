@@ -3,7 +3,7 @@ class Gather < Formula
     homepage "https://github.com/nwehr/gather"
     version "1.0.0"
     url "https://github.com/nwehr/gather/archive/refs/tags/v1.0.0.tar.gz"
-    sha256 "7ce8bed816101fbac501f2ee5fb1470107219000"
+    sha256 "dc4156435c3fa1bd5a2ace001faff21bb25e0a032f550099b6d329ee42fbe61b"
     license "BSD 2-Clause"
   
     depends_on "go@1.18" => :build
