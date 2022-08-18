@@ -1,9 +1,9 @@
 class Neopass < Formula
   desc "A simple password manager that uses age encryption."
   homepage "https://github.com/nwehr/neopass"
-  version "2.0.0"
-  url "https://github.com/nwehr/neopass/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "016767ed44fb3a65107bd6de3f29fa417e84c2cdf99c02a8aa818721f15db7ef"
+  version "2.0.1"
+  url "https://github.com/nwehr/neopass/archive/refs/tags/v2.0.1.tar.gz"
+  sha256 "bd25e46d7ec35ff060478518fc1a6cea4f02824a06b8668085b305ddf6225206"
   license "BSD 2-Clause"
 
   depends_on "go@1.18" => :build
